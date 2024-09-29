@@ -4,40 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D3.js</title>
+    <title>D3 Index</title>
 
     <style>
         body {
             background-color: #111827;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        
-        .container {
-            width: 300px;
-            height: 200px;
-            border: 1px solid #93C5FD;
-            background-color: #1F2937;
+            color: #93C5FD;
+            text-align: center;
         }
 
+        h1 {
+            font-size: 5rem;
+        }
 
-        .bar {
-            fill: #93C5FD;
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            transition-duration: 500ms;
+            color: #93C5FD;
+            font-size: 2rem;
+            padding: 12.5px;
+        }
+
+        a:hover {
+            transition-duration: 500ms;
+            /* color: rgb(31, 41, 55); */
+            background-color: rgb(31, 41, 55);
         }
     </style>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <script src="app.js" defer></script>
 </head>
 
 <body>
-    <!-- Added width and height to the SVG element -->
-    <svg width="300" height="200"></svg>
+    <h1>D3</h1>
+    <ul>
+        <li><a href="bars/app.html">Bars</a></li>
+        <li><a href="circles/excercise.html">Circles</a></li>
+        <li><a href="frequency/index.html">Letters</a></li>
+    </ul>
 </body>
 
 </html>

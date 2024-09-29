@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="excercise.js" defer></script>
+
+    <style>
+        body {
+            background-color: #111827;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+
+        button {
+            background-color: rgb(31, 41, 55);
+            border: 0;
+            padding: 20px;
+            color: #93C5FD;
+            margin: 50px;
+            width: 100px;
+        }
+
+        div {
+            border: 1px solid #93C5FD;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button id="prepend">Prepend</button>
+        <button id="append">Append</button>
+        <button id="drop">Drop</button>
+        <button id="drop-all">Drop all</button>
+    </div>
+
+    <svg width="600" height="600">
+    </svg>
+</body>
+
+</html>
